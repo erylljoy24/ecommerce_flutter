@@ -1,0 +1,255 @@
+name: magri
+description: MAgri Mobile Application
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 2.1.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+publish_to: none
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.4
+
+  flutter_signin_button: ^2.0.0
+
+  dotted_border: ^2.0.0+2
+
+  percent_indicator: ^4.2.2
+
+  # No web
+  sms_autofill: ^2.2.0
+
+  # https://pub.dev/packages/intl
+  intl: ^0.17.0
+
+  # No web
+  # https://pub.dev/packages/local_auth/install
+  local_auth: ^2.1.0
+
+  # No web
+  google_maps_flutter: ^2.1.5
+
+  #google_map_location_picker: ^4.1.7
+  # No web
+  google_map_location_picker:
+    git:
+      url: https://github.com/mannysoft/google_map_location_picker.git
+      ref: updated2 # the branch
+
+  # https://pub.dev/packages/flutter_launcher_icons
+  # No web
+  flutter_launcher_icons: ^0.9.2
+
+  url_launcher: ^6.1.2
+  
+  # https://pub.dev/packages/firebase_messaging
+  firebase_messaging: ^11.4.0
+
+  #https://medium.com/flutter-community/cache-manager-with-flutter-5a5db0d3a3e6
+  # https://pub.dev/packages/shared_preferences
+  shared_preferences: ^2.0.15
+  
+  #https://pub.dev/packages/flutter_secure_storage
+  # flutter_secure_storage: ^4.1.0
+
+  #https://pub.dev/packages/firebase_crashlytics
+  # iOS not configured yet
+  # No web
+  firebase_crashlytics: ^2.8.0
+
+  firebase_remote_config: ^2.0.7
+
+  # https://pub.dev/packages/image
+  image: ^3.1.3
+    
+  #https://pub.dev/packages/device_info
+  #device_info: ^0.4.2+1
+
+  #firebase_auth: ^0.20.0
+
+  # https://medium.com/@harshitkanodia/flutter-google-facebook-sign-in-using-firebase-auth-dd9b2d71b1c
+  # android not configured yet
+  flutter_facebook_auth: ^4.3.4
+
+  # https://medium.com/@tattwei46/flutter-how-to-do-user-login-with-firebase-a6af760b14d5
+
+  # https://pub.dev/packages/google_sign_in
+  google_sign_in: ^5.3.1
+
+  # No web
+  sign_in_with_apple: ^4.0.0
+  
+  # https://pub.dev/packages/provider
+  provider: ^6.0.2
+
+  # https://pub.dev/packages/http
+  http: ^0.13.4
+  
+  # https://pub.dev/packages/flutter_slidable#-installing-tab-
+  flutter_slidable: ^1.3.0
+
+  flutter_calendar_carousel: ^2.1.0
+
+  table_calendar: ^3.0.5
+
+  pull_to_refresh: ^2.0.0
+
+  transparent_image: ^2.0.0
+
+  # No web
+  cached_network_image: ^3.2.1
+
+  # gradient_app_bar: ^0.1.3
+
+  carousel_slider: ^4.1.1
+
+  flutter_rating_bar: ^4.0.1
+
+  awesome_dialog: ^2.2.1
+
+  geolocator: ^8.2.1
+
+  # No web
+  camera: ^0.9.7
+
+  # No web
+  path_provider: ^2.0.10
+
+  path: ^1.8.0
+
+  image_picker: ^0.8.5+3
+
+  # multi_image_picker: ^4.8.0
+  # https://fluttercandies.github.io/flutter_wechat_assets_picker/ related
+  # no web
+  multi_image_picker2:
+    git:
+      url: https://github.com/mannysoft/multi_image_picker2.git
+
+  adaptive_action_sheet: ^2.0.1
+
+  email_validator: ^2.0.1
+
+  fluttertoast: ^8.0.9
+
+  # no web
+  webview_flutter: ^3.0.4
+
+  flutter_credit_card: ^3.0.1
+
+  # For chat
+  # https://pub.dev/packages/laravel_echo
+  #laravel_echo: ^0.2.9
+
+  # Beware of pusher
+  # flutter_pusher_client: ^0.3.1
+  # no web
+  flutter_pusher_client:
+    git:
+      url: https://github.com/mannysoft/flutter-pusher-client.git
+      ref: android-embedding # the branch
+
+  pattern_formatter: ^2.0.0
+
+  # No web
+  flutter_svg: ^1.0.3
+
+  marquee: ^2.2.2
+
+  # https://github.com/jogboms/flutter_spinkit
+  # https://github.com/jogboms/flutter_spinkit/blob/master/example/lib/showcase.dart
+  flutter_spinkit: ^5.1.0
+  shimmer: ^2.0.0
+  flutter_native_splash: ^2.2.1
+  get: ^4.6.3
+  web_socket_channel: ^2.2.0
+  # phone_number: ^0.11.0+1
+  password_strength: ^0.2.0
+  # no web
+  libphonenumber: ^2.0.2
+  package_info_plus: ^1.4.2
+  
+  flutter_typeahead: ^4.0.0
+  image_stack: ^2.1.1
+  qr_flutter: ^4.0.0
+  location: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/home/
+    - assets/images/wallet/
+    - assets/images/categories/
+    - assets/images/account/
+
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: fonts/ProximaNova-Regular.otf
+        - asset: fonts/ProximaNova-Semibold.otf
+
+    - family: SilkSerif
+      fonts:
+        - asset: fonts/SilkSerif-Light.otf
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "796374145012",
+    "project_id": "magri-app-mobile-application",
+    "storage_bucket": "magri-app-mobile-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796374145012:android:acf6e33a862dc1a3990ba1",
+        "android_client_info": {
+          "package_name": "com.hs.magri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796374145012-q58cbkd2raumorja50477as618ukmerk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hs.magri",
+            "certificate_hash": "49770ecc54590c4be060ab72bf7b95c71abce511"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4NYha95rQcY67sBSlBsIsgNwIlCnc0JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796374145012-88qj37evephmrap17pbbc1016u42hv9j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hs.magri"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+flutter_icons:
+  android: false
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/launcher_icon/app_icon_ios.png"
+  # flutter pub run flutter_launcher_icons:main -f flutter_launcher_icons_ios.yaml

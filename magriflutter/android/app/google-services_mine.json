@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "186149208833",
+    "project_id": "magri-app-28f42",
+    "storage_bucket": "magri-app-28f42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186149208833:android:81ef5b4530238a511bd100",
+        "android_client_info": {
+          "package_name": "com.hs.magri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186149208833-givn4uvrbrrpsn0lunq0na1rc2v7f86b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hs.magri",
+            "certificate_hash": "b74a8ab92fc155f6194b2d80765328ee61705bfa"
+          }
+        },
+        {
+          "client_id": "186149208833-t07smoa5vcatiroglh47gem8e53912u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hs.magri",
+            "certificate_hash": "f9abc54950e5e66890a475308e3d327fad5cf0fb"
+          }
+        },
+        {
+          "client_id": "186149208833-d1v8thap1s0okcj2715ausq23v0iv9ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUjXwRDoh11CgiH6D9gJhU_USR2Ykenk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186149208833-d1v8thap1s0okcj2715ausq23v0iv9ok.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186149208833-hrv18oce56hl83ubr74lgbj509mmtn2r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hs.magri"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186149208833:android:223849b4a4e4486f1bd100",
+        "android_client_info": {
+          "package_name": "com.magri.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186149208833-d1v8thap1s0okcj2715ausq23v0iv9ok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGUjXwRDoh11CgiH6D9gJhU_USR2Ykenk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186149208833-d1v8thap1s0okcj2715ausq23v0iv9ok.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "186149208833-hrv18oce56hl83ubr74lgbj509mmtn2r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hs.magri"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
